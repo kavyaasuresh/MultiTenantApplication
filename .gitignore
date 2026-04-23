@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+
+# Java
+target/
+
+# Env
+.env
+
+# Vite
+.vite/
+
+# Logs
+*.log
+
+# OS
+.DS_Store

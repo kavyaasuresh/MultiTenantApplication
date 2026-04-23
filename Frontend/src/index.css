@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* Modern SaaS Palette (Stripe/Linear Style) */
+  --bg-app: #F9FAFB;
+  --surface: #FFFFFF;
+  
+  --primary: #4F46E5; /* Indigo 600 */
+  --primary-hover: #4338CA;
+  
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-muted: #9CA3AF;
+  
+  --border-light: #E2E8F0; /* Slate 200 - more defined */
+  --border-medium: #CBD5E1; /* Slate 300 - for focus/emphasis */
+  --sidebar-bg: #111827;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+}
+
+/* Premium Component Classes */
+.card-premium {
+  background: var(--surface);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-premium:hover {
+  border-color: var(--border-medium);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card-outline {
+  border: 2px solid var(--border-light);
+  background: white;
+  border-radius: 16px;
+}
+
+.btn-primary-saas {
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-primary-saas:hover {
+  background-color: var(--primary-hover);
+  box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2);
+}
+
+.btn-secondary-saas {
+  background-color: white;
+  color: var(--text-primary);
+  border: 1px solid var(--border-light);
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.btn-secondary-saas:hover {
+  background-color: var(--bg-app);
+  border-color: var(--text-muted);
+}
+
+.badge-saas {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid transparent;
+}
+
+/* Form Styles */
+.input-saas {
+  width: 100%;
+  padding: 10px 14px;
+  background-color: white;
+  border: 1.5px solid var(--border-light);
+  border-radius: 10px;
+  font-size: 14px;
+  transition: all 0.2s;
+  outline: none;
+}
+
+.input-saas:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
+}
