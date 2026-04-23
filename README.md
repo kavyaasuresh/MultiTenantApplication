@@ -76,38 +76,6 @@ erDiagram
     }
 ```
 
----
-
-## 🐳 Getting Started (Docker)
-
-### Prerequisites
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
-
-### Installation Steps
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. **Configure Environment Variables**:
-   Copy the example environment file to create your own:
-   ```bash
-   cp .env.example .env
-   ```
-
-3. **Launch the Application**:
-   Run the following command to build and start the entire stack:
-   ```bash
-   docker-compose up --build
-   ```
-
-4. **Access the App**:
-   - **Frontend**: [http://localhost](http://localhost)
-   - **Backend API**: [http://localhost:8080](http://localhost:8080)
-
----
 
 ## 📡 Key API Endpoints
 
@@ -137,6 +105,6 @@ This project is licensed under the **MIT License**. Feel free to use, modify, an
 ---
 
 ## 👨‍💻 Author
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+**Kavyaa S**
+- GitHub: https://github.com/kavyaasuresh/MultiTenantApplication.git
+
